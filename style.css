@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: "sora", sans-serif;
+}
+html{
+ overflow-x: hidden; 
+}
+.navbar{
+width: 100vw;
+height: 5rem;
+background-color: bisque;
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+position: fixed;
+}
+.logo{
+    width: 14rem;
+    height: 14rem;
+}
+.image-logo{
+    width: 100%;
+    height: 100%;
+}
+
+.item{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.menu{
+    margin-right: 3rem;
+}
+.list-item a{
+    font-size: 1.2rem;
+    color: black;
+}
+.list-item a:hover{
+    color: rgb(233,38, 38);
+}
+
+.home-container{
+    height: 100%;
+    width: 100%;
+}
+.image-home{
+    height: 80%;
+    width: 100%;
+}
+.mtn{
+    width: 66%;
+    margin-left: 6rem;
+}
+.mtn1{
+    width:44% ;
+    height: 5%;
+    margin-left: 20rem;
+}
+.home2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sous-home2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.home2-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    gap: 40px;
+}
